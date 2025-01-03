@@ -24,16 +24,16 @@
  Example:\
  prods = ["water","cheese","tomato"] \
  fnc1 = lambda x: "id:"+x[:2] \
- f(fnc1,prods)  " id:wa,id:ch,id:to"\
+ f(fnc1,prods) returns " id:wa,id:ch,id:to"\
  fnc2 = lambda x: (x[0]+x[-1]).upper() \
- f(fnc2,prods)  "WR,CE,TO"
+ f(fnc2,prods) returns "WR,CE,TO"
 
 #### (p5.py) A counter allows you to count any elements. Define a class C to create counters. The initial value of the counter is assigned when the object is created. The class contains the following methods:
- •	m1() - returns the counter value
- •	m2() - increases the counter value by 1
- •	m3() - decreases the counter value by 1
- •	m4(n) - increases/decreases the counter value by n
- •	__str__ - returns a string representation of the counter value
+ •	m1() - returns the counter value\
+ •	m2() - increases the counter value by 1\
+ •	m3() - decreases the counter value by 1\
+ •	m4(n) - increases/decreases the counter value by n\
+ •	\_\_str__- returns a string representation of the counter value\
    Example:\
    c=C(5)\
    c.m1() returns 5\
@@ -45,7 +45,7 @@
    c.m1() returns -3\
    c.m4(10)\
    c.m1() returns 7\
-   c.__str__()  "7"
+   c.\_\_str__() returns "7"
 
 #### (p6.py) Assume that a valid variable name in a computer program consists of one to five characters. The first character of a variable name must be a lowercase or uppercase letter or an underscore. The remaining characters in the variable name can be uppercase or lowercase letters, digits or the underscore character. Create a function f(vname) that returns true if the variable name vname is valid. Otherwise, the function returns false. 
  Example:\
@@ -115,5 +115,5 @@
  cars = [["KR234","in"],["BA123","in"],["GX444","in"],["KR234","out"], ["BA111","in"],["BA123","out"],["KR234","in"]]\
  f(cars) returns ["BA111","GX444","KR234"]\
  cars1 = [["KR234","in"],["KR234","out"]]\
- f(cars1) returns []
+ f(cars1) returns [ ]
 

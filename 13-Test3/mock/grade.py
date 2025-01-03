@@ -9,8 +9,8 @@ class Test(unittest.TestCase):
 
     def test_p2(self):
         import p2
-        self.assertEqual(p2.f(1597),True)
-        self.assertEqual(p2.f(1596),False)
+        self.assertEqual(p2.f(1,9,2),1)
+        self.assertEqual(p2.f(10,15,1),6)
 
     def test_p3(self):
         import p3
@@ -60,23 +60,23 @@ class Test(unittest.TestCase):
 
     def test_p11(self):
         import p11
-        self.assertEqual(p2.f(1597),True)
-        self.assertEqual(p2.f(1596),False)
+        self.assertEqual(p11.f(1597),True)
+        self.assertEqual(p11.f(1596),False)
 
     def test_p12(self):
         import p12
-        self.assertEqual(p2.f(1597),True)
-        self.assertEqual(p2.f(1596),False)
+        self.assertEqual(p12.f(1597),True)
+        self.assertEqual(p12.f(1596),False)
 
     def test_p13(self):
         import p13
-        self.assertEqual(p2.f(1597),True)
-        self.assertEqual(p2.f(1596),False)
+        self.assertEqual(p13.f(1597),True)
+        self.assertEqual(p13.f(1596),False)
 
     def test_p14(self):
         import p14
-        self.assertEqual(p2.f(1597),True)
-        self.assertEqual(p2.f(1596),False)
+        self.assertEqual(p14.f(1597),True)
+        self.assertEqual(p14.f(1596),False)
 
 
 if __name__ == '__main__':
