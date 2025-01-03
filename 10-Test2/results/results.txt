@@ -1,0 +1,75 @@
+test_p1 (__main__.Test.test_p1) ... ok
+test_p10 (__main__.Test.test_p10) ... ERROR
+test_p2 (__main__.Test.test_p2) ... ERROR
+test_p3 (__main__.Test.test_p3) ... ok
+test_p4 (__main__.Test.test_p4) ... ERROR
+test_p5 (__main__.Test.test_p5) ... ok
+test_p6 (__main__.Test.test_p6) ... ERROR
+test_p7 (__main__.Test.test_p7) ... ERROR
+test_p8 (__main__.Test.test_p8) ... FAIL
+test_p9 (__main__.Test.test_p9) ... ERROR
+
+======================================================================
+ERROR: test_p10 (__main__.Test.test_p10)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Studia\prg-basics\10-Test2\results\grade-test2-ZIISS1-1112.py", line 63, in test_p10
+    import p10
+ModuleNotFoundError: No module named 'p10'
+
+======================================================================
+ERROR: test_p2 (__main__.Test.test_p2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Studia\prg-basics\10-Test2\results\grade-test2-ZIISS1-1112.py", line 18, in test_p2
+    import p2
+ModuleNotFoundError: No module named 'p2'
+
+======================================================================
+ERROR: test_p4 (__main__.Test.test_p4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Studia\prg-basics\10-Test2\results\grade-test2-ZIISS1-1112.py", line 29, in test_p4
+    import p4
+ModuleNotFoundError: No module named 'p4'
+
+======================================================================
+ERROR: test_p6 (__main__.Test.test_p6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Studia\prg-basics\10-Test2\results\grade-test2-ZIISS1-1112.py", line 41, in test_p6
+    import p6
+ModuleNotFoundError: No module named 'p6'
+
+======================================================================
+ERROR: test_p7 (__main__.Test.test_p7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Studia\prg-basics\10-Test2\results\grade-test2-ZIISS1-1112.py", line 48, in test_p7
+    import p7
+ModuleNotFoundError: No module named 'p7'
+
+======================================================================
+ERROR: test_p9 (__main__.Test.test_p9)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Studia\prg-basics\10-Test2\results\grade-test2-ZIISS1-1112.py", line 60, in test_p9
+    self.assertEqual(p9.f([33,33,33,44,33]),44)
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Studia\prg-basics\10-Test2\results\p9.py", line 11, in f
+    return x
+          ^
+UnboundLocalError: cannot access local variable 'x' where it is not associated with a value
+
+======================================================================
+FAIL: test_p8 (__main__.Test.test_p8)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Studia\prg-basics\10-Test2\results\grade-test2-ZIISS1-1112.py", line 54, in test_p8
+    self.assertEqual(p8.f("K765QJT9A382"),"4")
+AssertionError: 4 != '4'
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.018s
+
+FAILED (failures=1, errors=6)
