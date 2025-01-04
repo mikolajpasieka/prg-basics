@@ -4,8 +4,10 @@ import unittest
 class Test(unittest.TestCase):
     def test_p1(self):
         import p1
-        self.assertEqual(p1.f("5 4 *"),20)
-        self.assertEqual(p1.f("8 3 % 4 9 * * 15 %"),12)
+        self.assertEqual(p1.f("sigma"),"Sigma-sIgma-siGma-sigMa-sigmA")
+        self.assertEqual(p1.f("rel"),"Rel-rEl-reL")
+        self.assertEqual(p1.f("c"),"C")
+        self.assertEqual(p1.f("jajo"),"Jajo-jAjo-jaJo-jajO")
 
     def test_p2(self):
         import p2
