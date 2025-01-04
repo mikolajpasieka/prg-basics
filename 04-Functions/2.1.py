@@ -17,3 +17,13 @@ str_num = chr(20303)
 print(f"number representing the string '20303' is {str_num}")
 
 bin_num = bin(304)
+print('304 in binary is ', bin_num )
+
+hex_num = hex(304)
+print('304 in hexadecimal is', hex_num)
+
+unicode = ord("€")
+print("unicode of  €  is ", unicode)
+
+absolut = abs(-17)
+print( 'absolute value of -17 is ', absolut)
