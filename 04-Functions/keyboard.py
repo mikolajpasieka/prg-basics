@@ -3,16 +3,16 @@
 #
 def input_string(message):
     x = input(message)
-    return x
+    return str(x)
 
 def input_integer(message):
     y = input(message)
-    return y
+    return int(y)
 
 def input_real(message):
     z = input(message)
-    return z
+    return float(z)
 
 def input_boolean(message):
     w = input(message)
-    return w
+    return bool(w)
