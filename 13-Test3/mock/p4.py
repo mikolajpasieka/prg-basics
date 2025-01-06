@@ -1,5 +1,6 @@
 def f(fnc,prods):
-    return "dupa"
+    x =  list(map(fnc,prods))
+    return ",".join(x)
 
 
 
