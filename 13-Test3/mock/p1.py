@@ -1,15 +1,14 @@
 def f(word):
-    wave = []
-    a = len(word)
-    if a == 0:
-        return ''
-    if a == 1:
+    if len(word) == 0:
+        return ""
+    if len(word) == 1:
         return word.upper()
-    for i in range(0,a):
-        wave.append(word[:i] + word[i].upper() + word[i+1:].lower())
-                
-    return "-".join(wave)
-    
+    wave = ""
+    for i in range(0,len(word)):
+        for j in range(0,len(word)):
+            
+     
+
 
 if __name__ == "__main__":
     print(f("book"))
