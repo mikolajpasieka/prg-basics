@@ -1,11 +1,14 @@
 def f(d):
-    di = dict(d)
-    for value in di.values():
-        if value == "out":
-            del value
-        r = list(di)
-        return r
-        
+   parking = []
+
+   for key, value in d:
+       if value == "in":
+           parking.append(key)
+       if value == "out":
+           parking.remove(key)
+           parking.sort()
+   return parking
+           
 
 
 

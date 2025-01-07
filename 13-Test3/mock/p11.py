@@ -1,14 +1,6 @@
-def f(fnc,res)
-    criteria = []
-    for i in res:
-        if fnc(i) == True:
-            criteria.append(res)
-    return int(max(criteria)) - int(min(criteria))
-
-
-
-
-
+def f(fnc,res):
+    grades = list(filter(fnc,res))
+    return max(grades) - min(grades)
 
 if __name__ == "__main__":
     res = [95,90,20,50,70]
